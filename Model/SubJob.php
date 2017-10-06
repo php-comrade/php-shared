@@ -6,6 +6,8 @@ use function Makasim\Values\set_value;
 
 class SubJob extends Job
 {
+    const SCHEMA = 'http://jm.forma-pro.com/schemas/SubJob.json';
+
     /**
      * @var array
      */
